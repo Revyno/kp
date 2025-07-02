@@ -22,13 +22,14 @@ class TeamsResource extends Resource
 {
     protected static ?string $model = Teams::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationGroup = 'Team';
+    protected static ?string $navigationIcon = 'heroicon-o-user-group';
 
     public static function form(Form $form): Form
     {
         return $form
             ->schema([
-                
+
                 FileUpload::make('imgUrl')
                     ->label('Image')
                     ->image()->columnSpan(2)
@@ -47,7 +48,7 @@ class TeamsResource extends Resource
                 ->options([
                     '1' => 'Show',
                     '0' => 'Hide',
-                   
+
                 ]),
 
 

@@ -18,10 +18,10 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class CategoriesResource extends Resource
-{
+{   protected static ?string $navigationGroup = 'Blogs';
     protected static ?string $model = Categories::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-briefcase';
 
     public static function form(Form $form): Form
     {
@@ -30,7 +30,7 @@ class CategoriesResource extends Resource
                 TextInput::make('name')
                 ->live()
                 ->afterStateUpdated(fn (Set $set, ?string $state) => $set('slug', Str::slug($state))),
-    
+
                 TextInput::make('slug')
 
 

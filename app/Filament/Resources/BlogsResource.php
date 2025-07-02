@@ -23,10 +23,10 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 class BlogsResource extends Resource
 {
     protected static ?string $model = Blogs::class;
+    protected static ?string $navigationGroup = 'Blogs';
+    protected static ?string $navigationIcon = 'heroicon-o-book-open';
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
-    
 
     public static function form(Form $form): Form
     {
