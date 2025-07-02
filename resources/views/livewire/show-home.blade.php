@@ -322,7 +322,10 @@
             <div class="testimonials-grid">
                 <div class="testimonial-card">
                     <div class="testimonial-avatar">
+                        <div class="testimonial-image">
+                        <img src="{{ asset('front\images\person\person-m-8.webp') }}" alt="">
                         <i class="fas fa-user"></i>
+                        </div>
                     </div>
                     <div class="testimonial-name">Budi Santoso</div>
                     <div class="testimonial-role">Karyawan Swasta</div>
@@ -340,7 +343,10 @@
 
                 <div class="testimonial-card">
                     <div class="testimonial-avatar">
+                        <div class="testimonial-image">
+                        <img src="{{ asset('front\images\person\person-f-12.webp') }}" alt="">
                         <i class="fas fa-user"></i>
+                        </div>
                     </div>
                     <div class="testimonial-name">Sari Wulandari</div>
                     <div class="testimonial-role">Ibu Rumah Tangga</div>
@@ -358,7 +364,11 @@
 
                 <div class="testimonial-card">
                     <div class="testimonial-avatar">
+                        <div class="testimonial-image">
+                        <img src="{{ asset('front\images\person\person-m-5.webp') }}" alt="">
                         <i class="fas fa-user"></i>
+                    </div>
+
                     </div>
                     <div class="testimonial-name">Ahmad Rizki</div>
                     <div class="testimonial-role">Mahasiswa</div>
@@ -376,7 +386,10 @@
 
                 <div class="testimonial-card">
                     <div class="testimonial-avatar">
+                        <div class="testimonial-image">
+                        <img src="{{ asset('front\images\person\person-f-5.webp') }}" alt="">
                         <i class="fas fa-user"></i>
+                        </div>
                     </div>
                     <div class="testimonial-name">Dewi Lestari</div>
                     <div class="testimonial-role">Pegawai Bank</div>
@@ -391,91 +404,11 @@
                     <p class="testimonial-text">Tempat lesnya bersih, air kolamnya jernih, dan fasilitas lengkap. Pelatihnya detail menjelaskan teknik renang yang benar. Rekomendasi banget untuk yang mau belajar renang di Surabaya.</p>
                     <div class="review-date">2 minggu yang lalu</div>
 
-                <div class="swiper init-swiper">
-                 <script type="application/json" class="swiper-config">
-                        {
-                        "loop": true,
-                        "speed": 600,
-                        "autoplay": {
-                            "delay": 5000
-                        },
-                        "slidesPerView": "auto",
-                        "pagination": {
-                            "el": ".swiper-pagination",
-                            "type": "bullets",
-                            "clickable": true
-                        }
-                        }
-                       </script>
-                {{-- <div class="slider-controls">
-                    <button class="slider-btn" id="prevBtn">
-                        <i class="fas fa-chevron-left"></i>
-                    </button>
-                    <div class="slider-dots" id="sliderDots"></div>
-                    <button class="slider-btn" id="nextBtn">
-                        <i class="fas fa-chevron-right"></i>
-                    </button>
-                </div>
-            </div> --}}
+
                 </div>
             </div>
         </div>
-    {{-- <section id="testimoni" class="testimonials">
-        <div class="container">
-            <div class="section-title">
-                <h2>Testimoni Siswa</h2>
-                <p class="section-subtitle">Apa kata mereka yang telah belajar bersama kami</p>
-            </div>
 
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-avatar">
-                        <i class="fas fa-user"></i>
-                    </div>
-                    <div class="testimonial-name">Dian Permata</div>
-                    <div class="testimonial-role">Siswa Kelas Pemula</div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p class="testimonial-text">"Saya dulu sangat takut air, tapi berkat metode pengajaran yang sabar dan menyenangkan dari pelatih di AquaSwim, sekarang saya sudah bisa berenang dengan percaya diri!"</p>
-                </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-avatar">
-                        <i class="fas fa-user"></i>
-                    </div>
-                    <div class="testimonial-name">Rudi Hartono</div>
-                    <div class="testimonial-role">Siswa Kelas Menengah</div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p class="testimonial-text">"Teknik mengajar yang detail dan personal membuat saya cepat menguasai gaya bebas dan gaya dada. Pelatih sangat memperhatikan setiap gerakan dan memberikan koreksi yang tepat."</p>
-                </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-avatar">
-                        <i class="fas fa-user"></i>
-                    </div>
-                    <div class="testimonial-name">Maya Indah</div>
-                    <div class="testimonial-role">Orang Tua Siswa</div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p class="testimonial-text">"Anak saya yang berusia 5 tahun awalnya sangat takut air. Setelah 4 pertemuan di AquaSwim, dia sudah berani bermain air dan mulai belajar mengapung. Pelatihannya sangat ramah dan sabar."</p>
-                </div>
-            </div>
         </div> --}}
     </section>
     <section class="section">
@@ -530,143 +463,6 @@
     </a>
     </div>
 
-{{--
-        <section class="section bg-tertiary">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-8">
-                     <div class="text-center">
-                        <h3 class="mb-4">Testiomonial</h2>
-                </div>
-            </div>
-        </div>
- <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section dark-background">
-
-      <img src="public\front\images\IMG_3516.JPG" class="testimonials-bg" alt="">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="front/images/testimonials/1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-
-    </section> --}}
-    {{-- <section class="section bg-tertiary">
-        <section class="section bg-tertiary">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 col-md-8">
-                        <div class="text-center">
-                            <h2 class="mb-4">Contact</h2>
-                            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus penatibus tincidunt</p>
-                            <a wire:navigate href="{{route('Contact')}}" class="btn btn-primary">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
-            </div> --}}
-              <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 </section>
 </div>
