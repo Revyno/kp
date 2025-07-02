@@ -32,13 +32,13 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- AOS CSS -->
-{{-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-<!-- AOS JS -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script> --}}
+
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>
+
+
     <!-- # Main Style Sheet -->
     <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('/front/css/style.css') }}">
@@ -47,17 +47,17 @@
     @livewireStyles
 </head>
 
-<body>
+<body >
      <!-- Hero Section -->
     {{-- <section id="hero" class="hero section dark-background">
       <img src="assets/img/pict-1.jpg" alt="" data-aos="fade-in">
       <div class="container d-flex flex-column align-items-left">
         <h2 data-aos="fade-up" data-aos-delay="100">Les Renang Terbaik & Terpercaya di Surabaya </h2>
-        <p data-aos="fade-up" data-aos-delay="200">Selamat datang di website Tirta nirwana semoga harimu cerah selalu :3</p> 
+        <p data-aos="fade-up" data-aos-delay="200">Selamat datang di website Tirta nirwana semoga harimu cerah selalu :3</p>
         <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
           <a href="#contact" class="btn-get-started">Daftar Sekarang</a>
           <a href="" class="glightbox btn-watch-video d-flex align-items-center">
-        </div> 
+        </div>
       </div>
     </section> --}}
     <!-- /Hero Section -->
@@ -83,7 +83,7 @@
                         <li class="nav-item"> <a wire:navigate class="nav-link" href="{{route('Home')}}">Home</a></li>
                         <li class="nav-item "> <a wire:navigate class="nav-link" href="{{route('AboutUs')}}">About Us</a></li>
                          <li class="nav-item dropdown">
-          {{-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 
+          {{-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
              data-bs-toggle="dropdown" aria-expanded="false">
             Programs
           </a>
@@ -102,7 +102,7 @@
                     </ul>
                      <a wire:navigate href="{{route('Contact')}}" class="btn btn-outline-primary">Contact us</a>
                     {{-- <a wire:navigate href="" class="btn btn-active ms-3" data-bs-toggle="button" aria-pressed="true" margin-left:100px; >Register</a> --}}
-                    
+
                      {{-- <a href="" class="whatsapp-link" target="_blank" data-aos="zoom-in" data-aos-delay="200" aria-label="Hubungi kami via WhatsApp">
         <img src="{{ asset('front\images\whatsapp.png') }}" alt="WhatsApp" class="whatsapp-icon-img"
         width="50">
@@ -127,7 +127,7 @@
     </header>
     <!-- /navigation -->
     {{ $slot }}
-   
+
 
 
 
@@ -182,7 +182,7 @@
                 </div>
             </div>
 
-        </div> 
+        </div>
     </footer> --}}
 
     <x-footer > </x-footer>

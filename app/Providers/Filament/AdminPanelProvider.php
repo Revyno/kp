@@ -7,6 +7,7 @@ use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\DisableBladeIconComponents;
 use Filament\Http\Middleware\DispatchServingFilamentEvent;
 use Filament\Pages;
+use Filament\Pages\Auth\Register;
 use Filament\Panel;
 use Filament\PanelProvider;
 use Filament\Support\Colors\Color;
@@ -29,11 +30,15 @@ use Illuminate\View\Middleware\ShareErrorsFromSession;
             // ->brandName('Tirta Nirwana')
             // ->brandLogo(asset('public\front\images\about\about-11.jpg'))
             ->brandLogo(asset('front/images/logo-icon.png'))
-            ->brandName('Tirta Nirwana')
+            ->brandName("Tirta Nirwana")
             // ->brandLogo(fn () => view('components.my-logo'))
             // ->brandLogo(fn () => '<img src="' . asset('images/logo-icon.png') . '" class="h-10" alt="Logo">')
+
             ->login()
-            
+        //     ->authPages([
+        //     Register::class,
+        // ])
+
             ->colors([
                 'primary' => Color::Amber,
             ])
@@ -41,6 +46,7 @@ use Illuminate\View\Middleware\ShareErrorsFromSession;
             ->discoverPages(in: app_path('Filament/Pages'), for: 'App\\Filament\\Pages')
             ->pages([
                 Pages\Dashboard::class,
+
             ])
             ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\\Filament\\Widgets')
             ->widgets([

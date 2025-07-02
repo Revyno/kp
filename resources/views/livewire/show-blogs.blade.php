@@ -126,19 +126,13 @@
                     <div class="widget widget-tags">
                         <h4 class="widget-title"><span>Tags</span></h4>
                         <ul class="list-inline widget-list widget-list-inline taxonomies-list">
-                            <li class="list-inline-item"><a href="#!">Booth</a>
+                            <li class="list-inline-item"><a href="#!">Class</a>
                             </li>
-                            <li class="list-inline-item"><a href="#!">City</a>
+                            <li class="list-inline-item"><a href="#!">Programs</a>
                             </li>
-                            <li class="list-inline-item"><a href="#!">Image</a>
-                            </li>
-                            <li class="list-inline-item"><a href="#!">New</a>
+                            <li class="list-inline-item"><a href="#!">News</a>
                             </li>
                             <li class="list-inline-item"><a href="#!">Photo</a>
-                            </li>
-                            <li class="list-inline-item"><a href="#!">Seasone</a>
-                            </li>
-                            <li class="list-inline-item"><a href="#!">Video</a>
                             </li>
                         </ul>
                     </div>

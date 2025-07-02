@@ -64,24 +64,24 @@
         <div class="container d-flex flex-column align-items-left">
             <img src="front/images/pict1.jpg" alt="" data-aos="fade-in">
             <h2 data-aos="fade-up" data-aos-delay="100">Les Renang Terbaik & Terpercaya di Surabaya </h2>
-            <p data-aos="fade-up" data-aos-delay="200">Selamat datang di website Tirta nirwana semoga harimu cerah selalu :3</p> 
+            <p data-aos="fade-up" data-aos-delay="200">Selamat datang di website Tirta nirwana semoga harimu cerah selalu :3</p>
             <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
                 <a href="#contact" class="btn-get-started">Daftar Sekarang</a>
                 <a href="" class="glightbox btn-watch-video d-flex align-items-center">
-                </div> 
+                </div>
             </div>
         </section>  --}}
         <!-- /Hero Section -->
-        <section class=" banner bg-tertiary position-relative overflow-hidden">
+        <section class=" banner bg-dark position-relative overflow-hidden">
             {{-- <img src="{{ asset('/front/images/bg1.jpg') }}" alt="Swimming pool background"> --}}
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6 mb-5 mb-lg-0">
                 <div class="block text-center text-lg-start pe-0 pe-xl-5">
-                    <h1 class="text-capitalize mb-4 ">Selamat datang Di Tirta Nirwana</h1>
+                    <h1 class="text-capitalize  text-white mb-4 ">Selamat datang Di Tirta Nirwana</h1>
                     {{-- <h1 class="text-capitalize mb-4 cssanimation typing">Selamat datang Di Tirta Nirwana</h1> --}}
-                    
-                    <p class="mb-4">Tirta Nirwana menyediakan pelatihan renang untuk anak-anak hingga dewasa, dengan pilihan kelas privat maupun reguler. Program pelatihan dirancang untuk membantu peserta mengembangkan keterampilan renang mereka, baik untuk tujuan rekreasi maupun kompetisi.</p> 
+
+                    <p class="text-white mb-4">Tirta Nirwana menyediakan pelatihan renang untuk anak-anak hingga dewasa, dengan pilihan kelas privat maupun reguler. Program pelatihan dirancang untuk membantu peserta mengembangkan keterampilan renang mereka, baik untuk tujuan rekreasi maupun kompetisi.</p>
             </p> <a type="button"
                         class="btn btn-primary" href="{{route('AboutUs')}}" data-bs-toggle="modal"
                         data-bs-target="{{route('AboutUs')}}">See More<span style="font-size: 14px;"
@@ -92,16 +92,16 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <div  class="ps-lg-5 text-center">
-                    <img loading="lazy" decoding="async" src="{{ asset('/front/images/home.png') }}"
-                        alt="banner image" class="bd-placeholder-img rounded mx-auto d-block width-100 border-radius: 15px;">
+                <div class="ps-lg-5 text-center">
+                    <img loading="lazy" decoding="async" src="{{ asset('front\images\bn1.jpg') }}"
+                        alt="banner image" class="bd-placeholder-img rounded mx-auto d-block width-400 border-radius: 80px; ">
                 </div>
             </div>
         </div>
     </div>
     {{-- <div class="has-shapes">
      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ff5500" fill-opacity="1" d="M0,96L14.1,90.7C28.2,85,56,75,85,101.3C112.9,128,141,192,169,192C197.6,192,226,128,254,101.3C282.4,75,311,85,339,85.3C367.1,85,395,75,424,106.7C451.8,139,480,213,508,213.3C536.5,213,565,139,593,101.3C621.2,64,649,64,678,53.3C705.9,43,734,21,762,26.7C790.6,32,819,64,847,90.7C875.3,117,904,139,932,144C960,149,988,139,1016,117.3C1044.7,96,1073,64,1101,53.3C1129.4,43,1158,53,1186,74.7C1214.1,96,1242,128,1271,154.7C1298.8,181,1327,203,1355,208C1383.5,213,1412,203,1426,197.3L1440,192L1440,0L1425.9,0C1411.8,0,1384,0,1355,0C1327.1,0,1299,0,1271,0C1242.4,0,1214,0,1186,0C1157.6,0,1129,0,1101,0C1072.9,0,1045,0,1016,0C988.2,0,960,0,932,0C903.5,0,875,0,847,0C818.8,0,791,0,762,0C734.1,0,706,0,678,0C649.4,0,621,0,593,0C564.7,0,536,0,508,0C480,0,452,0,424,0C395.3,0,367,0,339,0C310.6,0,282,0,254,0C225.9,0,198,0,169,0C141.2,0,113,0,85,0C56.5,0,28,0,14,0L0,0Z">
-        </path></svg> 
+        </path></svg>
         <svg class="shape shape-left text-light" viewBox="0 0 192 752" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <path
@@ -145,10 +145,10 @@
                 stroke="currentColor" stroke-miterlimit="10" />
             <path
                 d="M863.24 249.547C859.083 220.07 833.125 197.778 805.236 187.353C777.347 176.927 747.051 175.634 717.64 170.986C688.229 166.321 657.77 157.237 637.639 135.306C601.828 96.2707 612.319 35.6149 606.738 -17.0538C598.276 -96.7443 544.462 -170.052 470.974 -202"
-                stroke="currentColor" stroke-miterlimit="10" /> 
-        </svg> 
+                stroke="currentColor" stroke-miterlimit="10" />
+        </svg>
      </div> --}}
-</section> 
+</section>
 
 <section class="section">
     <div class="container">
@@ -163,16 +163,16 @@
                     {{-- <p>Lorem ipsum dolor sit amet, consectetur adipreiscing elit. Lacus penatibus tincidunt</p> --}}
                 </div>
             </div>
-            
-                
+
+
            @if ($services->isNotEmpty())
-               
+
            @php
                $i=1
                @endphp
             @foreach ($services as $service)
-                
-            
+
+
             <div class="col-lg-4 col-md-6 service-item">
                 <a wire:navigate class="text-black" href="{{route('ServiceDetail',$service->id)}}">
                     <div class="block"> <span class="colored-box text-center h3 mb-4">{{$i++}}</span>
@@ -182,12 +182,12 @@
                 </a>
             </div>
             @endforeach
-            
+
             @endif
 
         </div>
     </div>
-    <section class="section">
+    <section class="section-jadwal">
        <div class="container">
         <div class="header">
             <h1>Jadwal Kursus</h1>
@@ -244,22 +244,22 @@
                 </tbody>
             </table>
         </section>
-    
+
     <!-- Programs Section -->
-    <section id="section" class="section bg-tertiary">
+    <section id="section" class="section bg-dark">
         <div class="container">
-            <div class="section-title">
-                <h2>Program Kursus Renang</h2>
-                <p class="section-subtitle">Kami menawarkan berbagai program kursus renang untuk semua usia dan tingkat kemampuan</p>
+            <div class="section-title ">
+                <h2 class="text-orange">Program Kursus Renang</h2>
+                <p class="section-subtitle text-white">Kami menawarkan berbagai program kursus renang untuk semua usia dan tingkat kemampuan</p>
             </div>
-            
+
             <div class="programs-grid">
                 <!-- Kelas Pemula -->
                 <div class="program-card">
                     <div class="program-icon">
                         <i class="fas fa-book-open"></i>
                     </div>
-                    <h3>Kelas Pemula</h3>
+                    <h3 >Kelas Pemula</h3>
                     <p>Untuk anak-anak dan dewasa yang baru belajar berenang. Fokus pada pengenalan air dan teknik dasar.</p>
                     <ul class="program-features">
                         <li><i class="fas fa-check"></i> Pengenalan lingkungan air</li>
@@ -277,7 +277,7 @@
                     <div class="program-icon">
                         <i class="fas fa-bolt"></i>
                     </div>
-                    <h3>Kelas Menengah</h3>
+                    <h3 >Kelas Menengah</h3>
                     <p>Untuk mereka yang sudah menguasai dasar-dasar berenang dan ingin meningkatkan teknik.</p>
                     <ul class="program-features">
                         <li><i class="fas fa-check"></i> Gaya bebas dan gaya dada</li>
@@ -315,10 +315,10 @@
     <section id="section" class="section col-12 bg-dark">
         <div class="container">
             <div class="section-title">
-                <h2>Testimoni Siswa</h2>
-                <p class="section-subtitle">Apa kata mereka yang telah belajar bersama kami di Les Renang Surabaya Tirta Nirwana</p>
+                <h2 class="text-orange">Testimoni Siswa</h2>
+                <p class="section-subtitle text-white">Apa kata mereka yang telah belajar bersama kami di Les Renang Surabaya Tirta Nirwana</p>
             </div>
-            
+
             <div class="testimonials-grid">
                 <div class="testimonial-card">
                     <div class="testimonial-avatar">
@@ -390,7 +390,7 @@
                     </div>
                     <p class="testimonial-text">Tempat lesnya bersih, air kolamnya jernih, dan fasilitas lengkap. Pelatihnya detail menjelaskan teknik renang yang benar. Rekomendasi banget untuk yang mau belajar renang di Surabaya.</p>
                     <div class="review-date">2 minggu yang lalu</div>
-                    
+
                 <div class="swiper init-swiper">
                  <script type="application/json" class="swiper-config">
                         {
@@ -426,7 +426,7 @@
                 <h2>Testimoni Siswa</h2>
                 <p class="section-subtitle">Apa kata mereka yang telah belajar bersama kami</p>
             </div>
-            
+
             <div class="testimonials-grid">
                 <div class="testimonial-card">
                     <div class="testimonial-avatar">
@@ -495,7 +495,7 @@
                     $x=0;
                 @endphp
                 @foreach ($faqs as $faq )
-                    
+
                 <div class="accordion-item">
                   <h2 class="accordion-header accordion-button h5 border-0 "
                     id="heading-{{$x}}" type="button" data-bs-toggle="collapse"
@@ -529,8 +529,8 @@
         <span class="whatsapp-text">Whatsapp</span>
     </a>
     </div>
-        
-{{-- 
+
+{{--
         <section class="section bg-tertiary">
         <div class="container">
             <div class="row justify-content-center">
@@ -650,8 +650,8 @@
         </div>
 
       </div>
-    
-  
+
+
     </section> --}}
     {{-- <section class="section bg-tertiary">
         <section class="section bg-tertiary">

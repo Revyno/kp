@@ -38,10 +38,10 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-7">
                     <div class="section-title">
-                        {{-- <p class="text-center text-uppercase fw-bold mb-3">About Us</p> --}}
-                        {{-- <h2 class="h1 mt-6 mb-4">{{$aboutus->title}}</h2> --}}
+                        {{-- <p class="text-center text-uppercase fw-bold mb-3">About Us</p>  --}}
+                        <h2 class="text-orange mt-6 mb-4">{{$aboutus->title}}</h2>
                         <div class="content pe-0 pe-lg-5">
-                        {!! $aboutus->description !!}    
+                        {!! $aboutus->description !!}
                         </div>
                     </div>
                 </div>
@@ -51,11 +51,11 @@
             </div>
         </div>
     </section>
-    
-    
-    
-    
-{{--     
+
+
+
+
+{{--
     <section class="section teams bg-tertiary">
         <div class="container">
             <div class="row justify-content-center">
@@ -70,7 +70,7 @@
             </div>
             <div class="row position-relative">
                 @foreach ( $teams as $team )
-                    
+
                 <x-teams-card :team="$team" />
                 @endforeach
             </div>

@@ -14,7 +14,7 @@
           <div class="mb-5 text-center">
             <div class="post-slider rounded overflow-hidden">
               <img loading="lazy" decoding="async" src="{{asset('storage/'. $blog->imgUrl)}}" alt="Post Thumbnail">
-              
+
             </div>
           </div>
           <div class="content">
