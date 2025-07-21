@@ -28,8 +28,9 @@
     <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet"> --}}
     {{-- javascript cdn --}}
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 
     <!-- AOS CSS -->
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -48,19 +49,6 @@
 </head>
 
 <body >
-     <!-- Hero Section -->
-    {{-- <section id="hero" class="hero section dark-background">
-      <img src="assets/img/pict-1.jpg" alt="" data-aos="fade-in">
-      <div class="container d-flex flex-column align-items-left">
-        <h2 data-aos="fade-up" data-aos-delay="100">Les Renang Terbaik & Terpercaya di Surabaya </h2>
-        <p data-aos="fade-up" data-aos-delay="200">Selamat datang di website Tirta nirwana semoga harimu cerah selalu :3</p>
-        <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
-          <a href="#contact" class="btn-get-started">Daftar Sekarang</a>
-          <a href="" class="glightbox btn-watch-video d-flex align-items-center">
-        </div>
-      </div>
-    </section> --}}
-    <!-- /Hero Section -->
 
 
 
@@ -185,31 +173,13 @@
         </div>
     </footer> --}}
 
-    <x-footer > </x-footer>
-    @livewireScripts
     <!-- # JS Plugins -->
     <script src="{{ asset('/front/plugins/jquery/jquery.min.js') }}"></script>
+    <x-footer > </x-footer>
+    @livewireScripts
     <script src="{{ asset('/front/plugins/bootstrap/bootstrap.min.js') }}"></script>
 
-    <!-- Vendor JS Files -->
-    {{-- <script src="front/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="front/vendor/php-email-form/validate.js"></script>
-    <script src="front/vendor/aos/aos.js"></script>
-    <script src="front/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="front/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="front/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="front/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="front/vendor/isotope-layout/isotope.pkgd.min.js"></script> --}}
 
-    <!-- Vendor JS Files -->
-    {{-- <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('assets/vendor/php-email-form/validate.js') }}"></script>
-    <script src="{{ asset('assets/vendor/aos/aos.js') }}" defer></script>
-    <script src="{{ asset('assets/vendor/glightbox/js/glightbox.min.js') }}" defer></script>
-    <script src="{{ asset('assets/vendor/purecounter/purecounter_vanilla.js') }}" defer></script>
-    <script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js') }}" defer></script>
-    <script src="{{ asset('assets/vendor/imagesloaded/imagesloaded.pkgd.min.js') }}" defer></script>
-    <script src="{{ asset('assets/vendor/isotope-layout/isotope.pkgd.min.js') }}" defer></script> --}}
 
     <!-- Main Script -->
     <script src="{{ asset('/front/js/script.js') }}"></script>

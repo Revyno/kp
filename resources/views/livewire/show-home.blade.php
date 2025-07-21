@@ -187,8 +187,8 @@
 
         </div>
     </div>
-    <section class="section-jadwal">
-       <div class="container">
+    <section class="section-jadwal col-lg-auto">
+       <div class="container ">
         <div class="header">
             <h1>Jadwal Kursus</h1>
             <p class="section-subtitle">Jadwal Kursus Renang Profesional</p>
@@ -408,8 +408,29 @@
                 </div>
             </div>
         </div>
-
+        {{-- <div class="row align-items-center mb-5">
+            <div class="col-lg-6">
+            <div class="intro-content">
+              <h2>Powerful features to accelerate growth</h2>
+              <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+              <div class="feature-stats">
+                <div class="stat-item">
+                  <span class="stat-number">150+</span>
+                  <span class="stat-label">Features</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">99.9%</span>
+                  <span class="stat-label">Uptime</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">24/7</span>
+                  <span class="stat-label">Support</span>
+                </div>
+              </div>
+            </div>
         </div> --}}
+
+        </div>
     </section>
     <section class="section">
         <div class="container">

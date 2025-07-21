@@ -35,6 +35,8 @@ use Illuminate\View\Middleware\ShareErrorsFromSession;
             // ->brandLogo(fn () => '<img src="' . asset('images/logo-icon.png') . '" class="h-10" alt="Logo">')
 
             ->login()
+             ->databaseNotifications()
+            // ->databaseNotificationsPolling('30s')
         //     ->authPages([
         //     Register::class,
         // ])

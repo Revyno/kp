@@ -135,7 +135,7 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                </div>  
+                                                </div>
                                                 <div class="row">
                                                     <div class="col-lg-6 col-md-8 col-12 mb-4">
                                                         <div class="footer-widget">
@@ -145,12 +145,12 @@
                                                                 <button type="submit" class="btn btn-primary mt-3">Subscribe</button>
                                                             </form>
                                                         </div>
-                                                    </div> 
+                                                    </div>
                                                     <div class="row">
                                                         <div class="col-12">
                                                             <div class="copyright text-center mt-4 pt-3 border-top">
                                                                 <p class="mb-2">© <span>Copyright</span> <strong class="px-1 sitename">2025</strong> <span>All Rights Reserved</span></p>
-                                                                <div class="credits"> 
+                                                                <div class="credits">
                                                                     Designed by <a href="">Tirta Nirwana</a>
                                                                 </div>
                                                             </div>
@@ -255,11 +255,11 @@
                         </p>
                         <p class="mb-2 text-muted">
                             <i class="fas fa-phone text-primary me-2"></i>
-                            (031) 1234-5678
+                            085852532681
                         </p>
                         <p class="mb-2 text-muted">
                             <i class="fas fa-envelope text-primary me-2"></i>
-                            info@aquaswim.id
+                            tirtanirwana@gmail.com
                         </p>
                     </div>
                 </div>
@@ -271,10 +271,10 @@
             <div class="col-12">
                 <div class="copyright text-center mt-4 pt-3 border-top">
                     <p class="mb-2 text-muted">
-                        © <span>Copyright</span> <strong class="px-1 sitename text-primary">2025 Tirta Nirwana</strong> 
+                        © <span>Copyright</span> <strong class="px-1 sitename text-primary">2025 Tirta Nirwana</strong>
                         <span>All Rights Reserved</span>
                     </p>
-                    <div class="credits text-muted"> 
+                    <div class="credits text-muted">
                         Designed by <a href="#" class="text-primary">Tirta Nirwana</a>
                     </div>
                 </div>

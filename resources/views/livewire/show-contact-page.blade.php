@@ -33,7 +33,7 @@
             </svg>
         </div>
     </section>
-    
+
     <section class="section">
         <div class="container">
             <div class="row justify-content-center align-items-center">
@@ -50,7 +50,7 @@
                             <div class="alert alert-primary" role="alert">
                                 {{session('success')}}
                             </div>
-                    
+
                         @endif
                         <div class="row">
                             <div class="col-12 mb-4">
@@ -80,7 +80,7 @@
                                     <div class="block mt-0">
                                         <h4 class="h5">Ingin Menanyakan lebih Lanjut Terkait Program?</h4>
                                         <div class="content">Telephone via Whatsapp
-                                            <br> <a href="tel:+XXX111222">+6285852532681</a> 
+                                            <br> <a href="tel:+XXX111222">+6285852532681</a>
                                             <br>Senin - Minggu
                                             <br>07.00-17.00</div>
                                     </div>
@@ -91,28 +91,39 @@
                                             <br>Jawa Timur 60296</br>
                                         </div>
                                     </div>
-                                  
+
                                     <div class="block">
-                                        <ul class="list-unstyled list-inline my-4 social-icons">
-                                            <li class="list-inline-item me-3"><a title="Explorer Facebook Profile" class="text-black" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                        <div class="social-icons">
+                        <a href="https://facebook.com/" title="Facebook" class="text-primary me-3">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@tirtanirwana1003?is_from_webapp=1&sender_device=pc" title="Tiktok" class="text-primary me-3">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://instagram.com/" title="Instagram" class="text-primary me-3">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                                        {{-- <ul class="list-unstyled list-inline my-4 social-icons">
+                                            <li class="list-inline-item me-3"><a title="Explorer Facebook Profile" class="text-orange" href="https://tiktok.com/"><i class="fab fa-tiktok-f"></i></a>
                                             </li>
-                                            <li class="list-inline-item me-3"><a title="Explorer Twitter Profile" class="text-black" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                                            <li class="list-inline-item me-3"><a title="Explorer Twitter Profile" class="text-orange" href="https://whatsapp.com/"><i class="fab fa-twitter"></i></a>
                                             </li>
-                                            <li class="list-inline-item me-3"><a title="Explorer Instagram Profile" class="text-black" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                            </li>
+                                            <li class="list-inline-item me-3"><a title="Explorer Instagram Profile" class="text-orange" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                                            </li> --}}
 
                                              {{-- <div class="row mt-5"> --}}
                                             </div>
                                         </div>
                                     </section>
                                 </ul>
-                                
+
     <div class="map-wrapper col-8">
         <div class="map-container">
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63320.127321884735!2d112.72006562525311!3d-7.29668346729187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb1514faa227%3A0xf651e533020b5d1b!2sLes%20Renang%20Surabaya%20Tirta%20Nirwana!5e0!3m2!1sid!2sid!4v1748467437292!5m2!1sid!2sid" 
-                allowfullscreen="" 
-                loading="lazy" 
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63320.127321884735!2d112.72006562525311!3d-7.29668346729187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb1514faa227%3A0xf651e533020b5d1b!2sLes%20Renang%20Surabaya%20Tirta%20Nirwana!5e0!3m2!1sid!2sid!4v1748467437292!5m2!1sid!2sid"
+                allowfullscreen=""
+                loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>

@@ -14,13 +14,21 @@
           <div class="mb-5 text-center">
             <div class="post-slider rounded overflow-hidden">
               <img loading="lazy" decoding="async" src="{{asset('storage/'. $blog->imgUrl)}}" alt="Post Thumbnail">
-
             </div>
           </div>
+
+          {{-- <!-- Short Description Section -->
+          @if($blog->short_desc)
+          <div class="mb-4">
+            <p class="lead">{{ $blog->short_desc }}</p>
+          </div>
+          @endif --}}
+
+          <!-- Main Content Section -->
           <div class="content">
-           {{!! $blog->description }}
+           {!! $blog->description !!}
           </div>
         </div>
       </div>
     </div>
-  </div>
+</div>

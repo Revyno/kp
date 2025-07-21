@@ -4,8 +4,8 @@
  * FACEBOOK: https://www.facebook.com/themefisher
  * GITHUB: https://github.com/themefisher/
  */
-
-@charset "UTF-8";
+ @charset "UTF-8";
+ @import "flowbite/src/themes/default";
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
